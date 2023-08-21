@@ -1,0 +1,160 @@
+.card {
+  background-color: white;
+  height: auto;
+  width: 300px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  height: 35px;
+  padding: 5px 10px;
+}
+
+.cardHeaderImg {
+  height: 28px;
+  width: auto;
+  border-radius: 20px;
+  border-color: #ff9849;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1px;
+}
+
+.cardHeaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.username {
+  margin: 0;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.location {
+  margin: 0;
+  font-size: 8px;
+}
+.verifiedIcon {
+  color: rgb(57, 150, 193);
+}
+.dots {
+  color: #606060;
+}
+.photo {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 300px;
+}
+.photoFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  margin-left: 8px;
+}
+
+.leftIcons {
+  display: flex;
+  align-items: center;
+}
+
+.rightIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footerIcons {
+  margin-right: 10px;
+}
+.bottomText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.likes p {
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+.messageSpace {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 0; */
+}
+
+.messageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.info-username {
+  font-weight: bold;
+  display: inline;
+}
+
+.message {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  display: inline;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+}
+.comments p {
+  font-size: 10px;
+  color: #a5a5a5;
+}
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cardfooterImg {
+  height: 23px;
+  width: auto;
+  border-radius: 20px;
+  margin-inline: 5px;
+}
+.createComment {
+  padding-top: 5px;
+  padding-left: 2px;
+  font-size: 11px;
+  color: #a5a5a5;
+}
+.hours p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #a5a5a5;
+  font-size: 9px;
+  padding-inline: 6px;
+}
+.createCommentInput {
+  padding-top: 5px;
+  padding-left: 2px;
+  font-size: 11px;
+  color: #a5a5a5;
+  border: none;
+}
